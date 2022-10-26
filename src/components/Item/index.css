@@ -1,0 +1,16 @@
+.todo_item{
+    border: 1px solid red;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.todo_item button{
+    display: none;
+}
+.todo_item:hover{
+    background-color: aqua;
+}
+.todo_item:hover button{
+    display: block;
+}
